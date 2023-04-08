@@ -12,4 +12,6 @@ function getCount(str) {
         if (/[aeiou]/.test(str[i]))
             count++;
     return count;
-} getCount(/*Introduce un string para que cuente cuantas vocales tiene*/);
+};
+
+// getCount(/*Introduce un string para que cuente cuantas vocales tiene*/);

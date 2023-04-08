@@ -18,4 +18,6 @@ function descendingOrder(n) {
     });
 
     return Number(arr.join(''))
-} descendingOrder(/*Pasale un numero no negativo para ver como lo devuelve con sus digitos ordenados de mayor a menor */);
+};
+
+// descendingOrder(/*Pasale un numero no negativo para ver como lo devuelve con sus digitos ordenados de mayor a menor */);

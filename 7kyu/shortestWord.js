@@ -7,4 +7,6 @@ https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9
 
 function findShort(s) {
     return s.split(' ').map(element => element.length).sort((a, b) => a - b)[0]
-} findShort();
+};
+
+// findShort(/*Pasale una cadena para que veas que devuelve la longitud de la palabra mas corta de la misma*/);

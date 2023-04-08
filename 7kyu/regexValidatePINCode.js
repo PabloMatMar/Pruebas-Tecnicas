@@ -13,4 +13,6 @@ function validatePIN(pin) {
 
     return /^[0-9]{4,4}$/.test(pin) || /^[0-9]{6,6}$/.test(pin) ? true : false
 
-}
+};
+
+// validatePIN(/*Pasale un string que contenga o 4 o 6 digitos */)

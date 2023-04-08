@@ -17,4 +17,4 @@ https://www.codewars.com/kata/56a921fa8c5167d8e7000053
 function password(str) {
     return  /^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])\S{8,}$/.test(str);
 }
-password(/*Introduce una contraseña que cumpla lo requerido */)
+// password(/*Introduce una contraseña que cumpla lo requerido */)

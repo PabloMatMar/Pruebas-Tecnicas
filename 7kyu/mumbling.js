@@ -24,3 +24,5 @@ function accum(s) {
 
     return solution.join('');
 };
+
+// accum(/*Pasale un string para que veas como pone cada caracter del mismo en mayuscula y le concatena el mismo tantas veces como corresponda a su indice */)
