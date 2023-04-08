@@ -1,3 +1,4 @@
+https://www.codewars.com/kata/578aa45ee9fd15ff4600090d
 // Tarea
 // Se le dará una serie de números. Tienes que ordenar los números impares en orden ascendente y dejar los números pares en sus posiciones originales.
 
