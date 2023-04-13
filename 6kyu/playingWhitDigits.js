@@ -34,4 +34,4 @@ function digPow(n, p) {
     return Number.isInteger(sum / n) ? sum / n : -1;
 };
 
-digPow(/*¿Existe un número entero "k" como: (a ^ p + b ^ (p+1) + c ^(p+2) + d ^ (p+3) + ...) = n * k ? Pasale como primer parametro un numero n (cada digito representara una letra en orden alfabetico en la ecuacion) y un numero p como segundo para comprobarlo*/)
+// digPow(/*¿Existe un número entero "k" como: (a ^ p + b ^ (p+1) + c ^(p+2) + d ^ (p+3) + ...) = n * k ? Pasale como primer parametro un numero n (cada digito representara una letra en orden alfabetico en la ecuacion) y un numero p como segundo para comprobarlo*/)
