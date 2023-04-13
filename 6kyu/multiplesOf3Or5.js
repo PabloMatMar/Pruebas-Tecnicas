@@ -25,15 +25,15 @@ function solution(number) {
 
 //Sin metodos:
 
-function solution(number) {
-    var sum = 0;
+// function solution(number) {
+//     var sum = 0;
 
-    for (let i = 1; i < number; i++) {
-        if (i % 3 == 0 || i % 5 == 0) {
-            sum += i
-        }
-    }
-    return sum;
-}
+//     for (let i = 1; i < number; i++) {
+//         if (i % 3 == 0 || i % 5 == 0) {
+//             sum += i
+//         }
+//     }
+//     return sum;
+// }
 
 //solution(/*Pasale un numero y devolvera la suma de todos numeros menores que ese numero y que ademas sean multiplos de tres o de cinco*/)
