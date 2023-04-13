@@ -1,4 +1,4 @@
-// https://www.codewars.com/kata/591a86bfe76dc98f24000030
+https://www.codewars.com/kata/591a86bfe76dc98f24000030
 
 
 // Codewars Weeklyha ganado popularidad en los últimos meses y está recibiendo muchas cartas de admiradores. Desafortunadamente, algunos de los lectores usan palabras ofensivas y el editor quiere mantener la revista familiar.
@@ -25,24 +25,22 @@
 
 function censorThis(text, forbiddenWords) {
 
-    let wordCensored = []
-    const textArr = text.toLowerCase().split(' ')
-    let textModificated = text.split(' ')
+    let wordCensored = [];
+    const textArr = text.toLowerCase().split(' ');
+    let textModificated = text.split(' ');
 
     for (let i = 0; i < textArr.length; i++) {
-        for (let j = 0; j < forbiddenWords.length; j++) {
+        for (let j = 0; j < forbiddenWords.length; j++)
             if (textArr[i] === forbiddenWords[j]) {
-                for (let z = 0; z < forbiddenWords[j].length; z++) {
-                    wordCensored.push('*')
+                for (let z = 0; z < forbiddenWords[j].length; z++) wordCensored.push('*');
 
-                }
-                wordCensored = wordCensored.join('')
-                textModificated[i] = wordCensored
-                wordCensored = []
+                wordCensored = wordCensored.join('');
+                textModificated[i] = wordCensored;
+                wordCensored = [];
             }
-        }
+
     }
-    return textModificated.join(' ')
+    return textModificated.join(' ');
 }
 
 // censorThis(/*"Introduce un string como primer parametro", ["y", "un", "array", "cuyos", "elementos", "sean", "los", "string", "a", "censurar", "como", "segundo", "parametro" ] */)
