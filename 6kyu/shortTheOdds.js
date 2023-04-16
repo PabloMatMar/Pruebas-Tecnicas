@@ -17,4 +17,5 @@ function sortArray(array) {
     for (let i = 0; i < array.length; i++)
         Number.isInteger(array[i] / 2) ? solution.push(array[i]) : solution.push(arrOdd[count]) && count++;
     return solution
-} sortArray(/*Coloca un array de numeros para ver como ordena los impares y deja los pares en su posicion original */);
+};
+//sortArray(/*Coloca un array de numeros para ver como ordena los impares y deja los pares en su posicion original */);

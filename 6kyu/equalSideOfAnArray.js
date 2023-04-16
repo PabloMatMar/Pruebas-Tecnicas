@@ -36,4 +36,4 @@ function findEvenIndex(arr) {
         if (Number.isInteger((sum - arr[i]) / 2) && arr.slice(0, i).reduce((a, c) => a + c, vI) === arr.slice(i + 1, arr.length).reduce((a, c) => a + c, vI)) return i;
     return -1;
 };
-findEvenIndex(/*Introduce un array, y si encuentra un elemento cuyos elementos anteriores al mismo sumen lo mismo que los posteriores te devolverá el indice de dicho elemento */)
+//findEvenIndex(/*Introduce un array, y si encuentra un elemento cuyos elementos anteriores al mismo sumen lo mismo que los posteriores te devolverá el indice de dicho elemento */)

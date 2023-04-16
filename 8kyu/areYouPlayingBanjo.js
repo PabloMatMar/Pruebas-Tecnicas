@@ -11,9 +11,8 @@ https://www.codewars.com/kata/53af2b8861023f1d88000832
 
 function areYouPlayingBanjo(name) {
 
-    if (/^[R]/.test(name) || /^[r]/.test(name)) {
-        return name + " plays banjo"
-    } else {
-        return name + " does not play banjo"
-    }
-}
+    if (/^[R]/.test(name) || /^[r]/.test(name)) return name + " plays banjo";
+    else return name + " does not play banjo";
+};
+
+//areYouPlayingBanjo(/*Pásale un string, si el mismo comienza por r o R devolvera playing a banjo si no devolverá lo contrario */)

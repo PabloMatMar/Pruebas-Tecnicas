@@ -10,4 +10,5 @@ function solution(str) {
         .split('')
         .reverse()
         .join('');
-}
+};
+//solution(/*"Pasale una cadena y la invertirá" */)

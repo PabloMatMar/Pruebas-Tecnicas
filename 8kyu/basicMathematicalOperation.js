@@ -1,11 +1,11 @@
 https://www.codewars.com/kata/57356c55867b9b7a60000bd7
 
-// Your task is to create a function that does four basic mathematical operations.
+// Tu tarea es crear una función que realice cuatro operaciones matemáticas básicas.
 
-// The function should take three arguments - operation(string/char), value1(number), value2(number).
-// The function should return result of numbers after applying the chosen operation.
+// La función debe tomar tres argumentos: operación (cadena/caracter), valor1 (número), valor2 (número).
+// La función debe devolver el resultado de los números después de aplicar la operación elegida.
 
-// Examples(Operator, value1, value2) --> output
+// Ejemplos (Operador, valor1, valor2) --> salida
 // ('+', 4, 7) --> 11
 // ('-', 15, 18) --> -3
 // ('*', 5, 5) --> 25
@@ -25,5 +25,7 @@ function basicOp(operation, value1, value2) {
             return value1 / value2;
         default:
             return "operation must be on of this: * / - +, Value 1 and Value two must be a number";
-    }
-}
+    };
+};
+
+// basicOp(/*Pásale tres parametros, el primero un operador entre los siguientes cuatro (*, /, -, +) el segundo y el tercero seran dos numeros con los que hara la operacion del operador que le pases */)
