@@ -1,3 +1,5 @@
+https://www.codewars.com/kata/514a024011ea4fb54200004b
+
 // Escriba una función que, cuando se le proporcione una URL como una cadena, analice solo el nombre de
 // dominio y lo devuelva como una cadena. Por ejemplo:
 
