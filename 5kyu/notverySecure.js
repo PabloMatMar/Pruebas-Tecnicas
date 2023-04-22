@@ -1,4 +1,7 @@
-// En este ejemplo, debe validar si una cadena de entrada del usuario es alfanumérica. La cadena dada no es nil/null/NULL/None, por lo que no tiene que verificar eso.
+https://www.codewars.com/kata/not-very-secure/discuss/javascript
+
+// En este ejemplo, debe validar si una cadena de entrada del usuario es alfanumérica. La cadena dada
+// no es nil/null/NULL/None, por lo que no tiene que verificar eso.
 
 // La cadena tiene las siguientes condiciones para ser alfanumérica:
 
