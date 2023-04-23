@@ -43,3 +43,7 @@ function cakes(recipe, available) {
             [0] - (quantities[0] - Math.trunc(quantities[0]));
     };
 };
+
+//cakes(/*Pásale como primer argumento un objeto con los ingredientes necesarios(propiedad y
+// cantidad (un numero y nada mas) y otro objeto que tenga los ingredientes de los que dispones,
+// cantidad y numero) */)
