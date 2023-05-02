@@ -1,4 +1,6 @@
 * {
     background-color: black;
-    color: white;
+    color: rebeccapurple;
+    background-image: url(./imgs/mandalorian.jpg);
+    background-repeat: no-repeat;
 }
