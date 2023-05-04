@@ -1,4 +1,4 @@
-https://www.codewars.com/kata/558ffec0f0584f24250000a0
+// https://www.codewars.com/kata/558ffec0f0584f24250000a0
 
 // Estás pasando el rato con tus amigos en un bar, cuando de repente uno de ellos está tan borracho que no puede hablar, y cuando quiere decir algo, lo escribe en un papel. Sin embargo, ninguna de las palabras que escribe tiene sentido para ti. Quiere ayudarte, así que señala una cerveza y escribe "yvvi". Empiezas a entender lo que está tratando de decir y escribes un guión que decodifica sus palabras.
 
