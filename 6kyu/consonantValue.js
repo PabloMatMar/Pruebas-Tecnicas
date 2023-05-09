@@ -23,4 +23,7 @@ const solve = (str) => {
     })
     return compares;
 };
+//solve(Pasale un string, "asignará" un numero del 1 al 25 de la a a la z, sumará todos aquellos substrings
+// que sean consonantes que aparezcan de forma consecutiva en el string, devolverá el numero
+//correspondiente al valor del substring con valores mas altos)
 
