@@ -3,7 +3,7 @@
 
 </Br>
 
-*Saltos de pagina:*
+## *Saltos de pagina:*
 
 - <a href="#ancla-1">Competencias por nivel, puntuaciones, badges y ejercicios</a>
 - <a href="#ancla-2">Ver Soluciones a las tecnicas en el repositorio:</a>
@@ -13,7 +13,7 @@
 
 <a name="ancla-1"></a>
 
-## Competencias por nivel, puntuaciones, badges y ejercicios :
+## Competencias por nivel, puntuaciones, badges y ejercicios resueltos:
 
 </Br>
 
@@ -29,7 +29,9 @@
 <a href="https://docs.codewars.com/gamification/honor/#solving-kata"><img src="./styles/imgs/solvingKata.jpg" width="30%"/></a>
 <a href="https://docs.codewars.com/gamification/ranks#required-score"><img src="./styles/imgs/requiredScore.jpg" width="29.8%"/></a>
 
-[Mi puntuacion en su API](https://www.codewars.com/api/v1/users/PabloMatMar)
+</Br>
+
+[Visualiza mi puntuacion en su API](https://www.codewars.com/api/v1/users/PabloMatMar)
 
 </Br>
 
@@ -47,7 +49,7 @@
 
 <a name="ancla-2"></a>
 
-## Ver Soluciones a las tecnicas en el repositorio:
+## Ver Soluciones a las pruebas tecnicas en el repositorio:
 
 
 1. Ves a una de las carpetas donde se especifican los niveles de las pruebas que alli residen.
