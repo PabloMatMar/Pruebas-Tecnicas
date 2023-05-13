@@ -11,8 +11,9 @@
 
 </Br>
 
-## Competencias por nivel, puntuaciones, badges y ejercicios :
 <a name="ancla-1"></a>
+
+## Competencias por nivel, puntuaciones, badges y ejercicios :
 
 </Br>
 
@@ -44,8 +45,10 @@
 
 </Br>
 
-## Ver Soluciones a las tecnicas en el repositorio:
 <a name="ancla-2"></a>
+
+## Ver Soluciones a las tecnicas en el repositorio:
+
 
 1. Ves a una de las carpetas donde se especifican los niveles de las pruebas que alli residen.
     - Dificultad: 8kyu < 1kyu
