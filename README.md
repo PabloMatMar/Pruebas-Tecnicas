@@ -5,15 +5,14 @@
 
 *Saltos de pagina:*
 
-<a href="#ancla-1">Competencias por nivel, puntuaciones, badges y ejercicios</a>
-<a name="ancla-1"></a>
+- <a href="#ancla-1">Competencias por nivel, puntuaciones, badges y ejercicios</a>
+- <a href="#ancla-2">Ver Soluciones a las tecnicas en el repositorio:</a>
 
-<a href="#ancla-2">Ver Soluciones a las tecnicas en el repositorio:</a>
-<a name="ancla-2"></a>
 
 </Br>
 
-<h2> Competencias por nivel, puntuaciones, badges y ejercicios :</h2>
+## Competencias por nivel, puntuaciones, badges y ejercicios :
+<a name="ancla-1"></a>
 
 </Br>
 
@@ -45,7 +44,8 @@
 
 </Br>
 
-<h2> Ver Soluciones a las tecnicas en el repositorio: </h2>
+## Ver Soluciones a las tecnicas en el repositorio:
+<a name="ancla-2"></a>
 
 1. Ves a una de las carpetas donde se especifican los niveles de las pruebas que alli residen.
     - Dificultad: 8kyu < 1kyu
