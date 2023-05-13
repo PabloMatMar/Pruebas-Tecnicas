@@ -1,7 +1,65 @@
 # Pruebas-Tecnicas
+*Normalemente redacto la <u>**Documentacion en ingles**</u>. Pero dada la complejidad de algunas pruebas, asi como la mayor facilidad y rapidez de evaluacion de las mismas, esta vez, me he permitido documentar en español.*
 
-### Ver Soluciones a las tecnicas:
+</Br>
 
-Ves a una de las carpetas donde se especifican los niveles de cada prueba siendo 8 el mas inicial y 1 uno el mas experto. Selecciona dentro de la carpeta el script que quieras ver. Su nombre indica el nombre de la prueba original en codewars, cuyo enlace esta al comienzo del script. Haz click derecho sobre el nombre, selecciona cambiar nombre y en su lugar haz ctrl + c, despues dirigite a index y en el atributo src de la etiqueta script introduce ./(1-8)kyu/ y haz ctrl + v para pegar el nombre del archivo que querias ver.
+*Saltos de pagina:*
 
-Corre la direccion http://127.0.0.1:5501/ o selecciona golive en visual estudio. Una vez en la pagina abre el inspector y ves al apartado consola. Despues dirigete al archivo y mira el nombre de la funcion del ejercico. Alli tendras varios ejemplos para llamar a la funcion y comprobar que efectivamente devuelve lo que el enunciado pide una vez la llames desde el inspector.
+<a href="#ancla-1">Competencias por nivel, puntuaciones, badges y ejercicios</a>
+<a name="ancla-1"></a>
+
+<a href="#ancla-2">Ver Soluciones a las tecnicas en el repositorio:</a>
+<a name="ancla-2"></a>
+
+</Br>
+
+<h2> Competencias por nivel, puntuaciones, badges y ejercicios :</h2>
+
+</Br>
+
+### Competencias por nivel
+
+[**Pagina oficial codewars. Aparto competencias requeridas para resolver los niveles desde 8kyu hasta el 4kyu (el mio, actualmente)**](https://docs.codewars.com/curation/references/kata-ranks/#8-kyu)
+
+</Br>
+
+### Puntuaciones Recibidas por dificultad de Kata
+*Presiona ctrl+click sobre la imagen para ver la misma imagen en la pagina de documentacion oficial*
+
+<a href="https://docs.codewars.com/gamification/honor/#solving-kata"><img src="./styles/imgs/solvingKata.jpg" width="30%"/></a>
+<a href="https://docs.codewars.com/gamification/ranks#required-score"><img src="./styles/imgs/requiredScore.jpg" width="29.8%"/></a>
+
+[Mi puntuacion en su API](https://www.codewars.com/api/v1/users/PabloMatMar)
+
+</Br>
+
+### Badge
+##### Presiona ctrl + click para ver la badge
+![Codewars Level](https://www.codewars.com/users/PabloMatMar/badges/large)
+
+![Obtencion de las badges](./styles/imgs/badges.jpg)
+
+</Br>
+
+[**Listado de ejercicios completados (158) en su API.**](https://www.codewars.com/api/v1/users/PabloMatMar/code-challenges/completed?page={page})
+
+</Br>
+
+<h2> Ver Soluciones a las tecnicas en el repositorio: </h2>
+
+1. Ves a una de las carpetas donde se especifican los niveles de las pruebas que alli residen.
+    - Dificultad: 8kyu < 1kyu
+2. Selecciona dentro de la carpeta el script que quieras ver.
+    - Su nombre indica el nombre de la prueba original en codewars, cuyo enlace esta al comienzo del script.
+3. En el archivo haz click derecho sobre el nombre, selecciona cambiar nombre y en su lugar haz ctrl + c (copiar)
+4. Dirigite a index y en el atributo src de la etiqueta script introduce ./(1-8)kyu(carpeta que contiene el archivo)/ y haz ctrl + v justo aqui
+
+5. Corre la direccion http://127.0.0.1:5500/ (Tal vez debas habilitarla antes en tu editor de codigo)
+
+6. En el script encontrarás:
+   - Link a la prueba original en codewars.
+   - Enunciado de la prueba (Los test pueden requerir mas cosas)
+   - Solucion COMPLETA realizada por mi
+   - Una llamada a la funcion comentada explicandote el argumento/s que debes pasarle y lo que la funcion devolverá(Un enunciado abreviado)
+
+7. Abre el inspector, llama a la funcion y comprueba que hace lo que se especifica que hace. Presta atencion al argumento requerido.
