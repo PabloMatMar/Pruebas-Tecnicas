@@ -19,7 +19,7 @@
 
 ### Competencias por nivel
 
-[**Pagina oficial codewars. Aparto competencias requeridas para resolver los niveles desde 8kyu hasta el 4kyu (el mio, actualmente)**](https://docs.codewars.com/curation/references/kata-ranks/#8-kyu)
+[**Pagina oficial codewars. Apartado competencias requeridas para resolver los niveles desde 8kyu hasta el 4kyu (el mio, actualmente)**](https://docs.codewars.com/curation/references/kata-ranks/#8-kyu)
 
 </Br>
 
