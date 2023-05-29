@@ -26,12 +26,14 @@
 ### Puntuaciones Recibidas por dificultad de Kata
 *Presiona ctrl+click sobre la imagen para ver la misma imagen en la pagina de documentacion oficial*
 
-<a href="https://docs.codewars.com/gamification/honor/#solving-kata"><img src="./styles/imgs/solvingKata.jpg" width="30%"/></a>
+<a href="https://docs.codewars.com/gamification/ranks/#awarded-score"><img src="./styles/imgs/solvingKata.jpg" width="36.75%"/></a>
 <a href="https://docs.codewars.com/gamification/ranks#required-score"><img src="./styles/imgs/requiredScore.jpg" width="29.8%"/></a>
 
 </Br>
 
-[Visualiza mi puntuacion en su API](https://www.codewars.com/api/v1/users/PabloMatMar)
+##### *No confundir el score con el honor, el honor es el que aparece en la badge y el score el que aparece en la api. El score siempre es mas alto(salvo que ademas de resolver ejercicios te dediques a crearlos) Se consigue menos honor que score por resolver ejercicos del mismo nivel: https://docs.codewars.com/gamification/honor/#solving-kata*
+
+
 
 </Br>
 
