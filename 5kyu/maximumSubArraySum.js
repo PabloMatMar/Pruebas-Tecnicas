@@ -10,17 +10,17 @@
 
 
 const maxSequence = arr => {
-    let sum = [[0, 'Index Of Start', 'Index Of End']];
-    for (let i = 0; i < arr.length; i++) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++)
         for (let j = 0; j < arr.length; j++) {
-            let subArrSum = arr.slice(i, j + 1).reduce((a, b) => a + b, 0);
-            if (subArrSum > sum[0][0]) {
-                sum = [];
-                sum.push([subArrSum, i, j]);
-            };
+            let subArrSum = arr
+                .slice(i, j + 1)
+                .reduce((a, b) => a + b, 0);
+            if (subArrSum > sum)
+                sum = subArrSum;
         };
-    };
-    return sum[0][0];
+    return sum;
 };
+
 //maxSequence(/*Pasale como argumento un array de numeros, positivos y (preferiblemente) negativos, devolverá el
 //valor de la suma de aquel subArray que tenga una mayor suma (si son todos positivos devolvera arr.reduce..) */)
