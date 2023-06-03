@@ -19,7 +19,7 @@
 
 ### Competencias por nivel
 
-[**Pagina oficial codewars. Apartado competencias requeridas para resolver los niveles desde 8kyu hasta el 4kyu (el mio, actualmente)**](https://docs.codewars.com/curation/references/kata-ranks/#8-kyu)
+[**Pagina oficial codewars. Apartado competencias requeridas para resolver los niveles desde 8kyu hasta el 4kyu**](https://docs.codewars.com/curation/references/kata-ranks/#8-kyu)
 
 </Br>
 
@@ -49,7 +49,7 @@
 
 </Br>
 
-[**Listado de ejercicios completados (158) en su API.**](https://www.codewars.com/api/v1/users/PabloMatMar/code-challenges/completed?page={page})
+[**Listado de ejercicios completados (182) en su API.**](https://www.codewars.com/api/v1/users/PabloMatMar/code-challenges/completed?page={page})
 
 </Br>
 
