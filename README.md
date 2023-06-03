@@ -33,6 +33,10 @@
 
 ##### *No confundir el score con el honor, el honor es el que aparece en la badge y el score el que aparece en la api. El score siempre es mas alto(salvo que ademas de resolver ejercicios te dediques a crearlos) Se consigue menos honor que score por resolver ejercicos del mismo nivel: https://docs.codewars.com/gamification/honor/#solving-kata*
 
+</Br>
+
+[Visualiza mi score en su API](https://www.codewars.com/api/v1/users/PabloMatMar)
+
 
 
 </Br>
