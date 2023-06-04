@@ -49,7 +49,7 @@
 
 </Br>
 
-[**Listado de ejercicios completados (182) en su API.**](https://www.codewars.com/api/v1/users/PabloMatMar/code-challenges/completed?page={page})
+[**Listado de ejercicios completados (184) en su API.**](https://www.codewars.com/api/v1/users/PabloMatMar/code-challenges/completed?page={page})
 
 </Br>
 

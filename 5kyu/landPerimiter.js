@@ -26,21 +26,19 @@ const landPerimeter = (arr) => {
             if (arr[i][j] == 'X') {
                 sum = sum + 4;
                 let rigth = 1;
-                while (j + rigth <= arr[i].length - 1 && arr[i][j + rigth] == 'X') {
-                    if (!elementsCountedH.includes(`${i},${j + rigth}`)) {
+                if (!elementsCountedH.includes(`${i},${j + rigth}`))
+                    while (j + rigth <= arr[i].length - 1 && arr[i][j + rigth] == 'X') {
                         sum = sum - 2;
                         elementsCountedH.push(`${i},${j + rigth}`)
-                    }
-                    rigth++;
-                };
+                        rigth++;
+                    };
                 let left = 1;
-                while (i + left <= arr.length - 1 && arr[i + left][j] == 'X') {
-                    if (!elementsCountedV.includes(`${i + left},${j}`)) {
+                if (!elementsCountedV.includes(`${i + left},${j}`))
+                    while (i + left <= arr.length - 1 && arr[i + left][j] == 'X') {
                         sum = sum - 2;
                         elementsCountedV.push(`${i + left},${j}`)
-                    }
-                    left++;
-                };
+                        left++;
+                    };
             };
 
     return 'Total land perimeter: ' + sum;
