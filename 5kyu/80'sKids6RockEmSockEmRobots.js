@@ -26,7 +26,7 @@
 //    "laser": 30,
 //    "missile": 35
 //  }
- 
+
 //  fight(robot1, robot2, tactics) -> "Missile Bob has won the fight."
 // robot2 usa la primera táctica, "misil", porque tiene la mayor velocidad. Esto reduce la salud de robot1 en 35. Ahora robot1 usa un puñetazo, y así sucesivamente.
 
@@ -62,7 +62,7 @@ const fight = (robot1, robot2, points) => {
                     return `${robot2.name} has won the fight.`
                 robot2.tactics = robot2.tactics.slice(1);
             } else if (robot1.tactics.length == 0)
-            break;
+                break;
             round = 1;
         } else break;
     };
@@ -98,3 +98,36 @@ const fight = (robot1, robot2, points) => {
 // si el segundo sigue con vida contraataca, y asi hasta que o ambos se queden sin tecnicas, o uno muera.
 // Devolverá quien gano o si hubo empate, añade las tecnicas que quieras, pero acuerdate de añadir la tecnica
 // en el tercer objeto como propiedad con un valor numerico para el daño que quieras que haga, debes reflejarla!)
+
+
+//Solucion en la que uso la recursividad, memoizacion :P
+const fight2 = (robot1, robot2, points) => {
+    robot1.tactics = robot1.tactics.map((e, i, arr) => e = points[arr[i]]);
+    robot2.tactics = robot2.tactics.map((e, i, arr) => e = points[arr[i]]);
+    const rounds = (r) => {
+        if (r > 0) {
+            if (robot1.tactics.length >= 1) {
+                robot2.health = robot2.health - robot1.tactics[0];
+                if (robot2.health <= 0)
+                    return `${robot1.name} has won the fight.`;
+                robot1.tactics = robot1.tactics.slice(1);
+            } else if (robot2.tactics.length == 0)
+                return rounds(0);
+            return rounds(-1);
+        } else if (r < 0) {
+            if (robot2.tactics.length >= 1) {
+                robot1.health = robot1.health - robot2.tactics[0];
+                if (robot1.health <= 0)
+                    return `${robot2.name} has won the fight.`;
+                robot2.tactics = robot2.tactics.slice(1);
+            } else if (robot1.tactics.length == 0)
+                return rounds(0);
+            return rounds(1);
+        } else {
+            if (robot1.health == robot2.health)
+                return "The fight was a draw.";
+            return robot1.health > robot2.health ? `${robot1.name} has won the fight.` : `${robot2.name} has won the fight.`;
+        }
+    };
+    return robot1.speed >= robot2.speed ? rounds(1) : rounds(-1);
+};
